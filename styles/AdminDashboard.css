@@ -1,0 +1,48 @@
+.error-bar {
+  width: 100%;
+  background-color: #ef4444;
+  transition: height 0.3s ease-in-out;
+  min-height: 4px;
+}
+
+.error-chart-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.error-chart-day {
+  text-align: center;
+}
+
+.error-chart-bar-container {
+  margin-bottom: 0.5rem;
+  height: 8rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* Dynamic height classes for error bars */
+.error-bar-height-1 { height: 4px; }
+.error-bar-height-2 { height: 8px; }
+.error-bar-height-3 { height: 12px; }
+.error-bar-height-4 { height: 16px; }
+.error-bar-height-5 { height: 20px; }
+.error-bar-height-6 { height: 24px; }
+.error-bar-height-7 { height: 28px; }
+.error-bar-height-8 { height: 32px; }
+.error-bar-height-9 { height: 36px; }
+.error-bar-height-10 { height: 40px; }
+.error-bar-height-11 { height: 44px; }
+.error-bar-height-12 { height: 48px; }
+.error-bar-height-13 { height: 52px; }
+.error-bar-height-14 { height: 56px; }
+.error-bar-height-15 { height: 60px; }
+.error-bar-height-16 { height: 64px; }
+.error-bar-height-17 { height: 68px; }
+.error-bar-height-18 { height: 72px; }
+.error-bar-height-19 { height: 76px; }
+.error-bar-height-20 { height: 80px; }
+.error-bar-height-high { height: 100px; }
